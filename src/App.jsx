@@ -10,11 +10,13 @@ import "./assets/css/style.css";
 import "./App.css";
 
 import Nav from "./components/nav.jsx";
+import Hero from "./components/Hero.jsx";
 
 function App() {
   return (
     <>
       <Nav />
+      <Hero />
       {/* Other sections will be added here as React components */}
     </>
   );
