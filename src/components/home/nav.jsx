@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import navlogo from "../assets/logo-white.png";
-import navlogo2 from "../assets/logo.png";
+import navlogo from "../../assets/logo-white.png";
+import navlogo2 from "../../assets/logo.png";
 
 const Nav = () => {
   const [showPreloader, setShowPreloader] = useState(true);

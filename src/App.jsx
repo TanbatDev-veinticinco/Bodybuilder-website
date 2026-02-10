@@ -9,14 +9,16 @@ import "./assets/css/style.css";
 // Local overrides
 import "./App.css";
 
-import Nav from "./components/nav.jsx";
-import Hero from "./components/Hero.jsx";
+import Nav from "./components/home/nav.jsx";
+import Hero from "./components/home/HeroSection.jsx";
+import FeatureSection from "./components/home/FeatureSection.jsx";
 
 function App() {
   return (
     <>
       <Nav />
       <Hero />
+      <FeatureSection />
       {/* Other sections will be added here as React components */}
     </>
   );
