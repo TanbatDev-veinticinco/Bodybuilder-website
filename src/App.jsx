@@ -12,6 +12,7 @@ import "./App.css";
 import Nav from "./components/home/nav.jsx";
 import Hero from "./components/home/HeroSection.jsx";
 import FeatureSection from "./components/home/FeatureSection.jsx";
+import AboutSection from "./components/home/AboutSection.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Nav />
       <Hero />
       <FeatureSection />
+      <AboutSection />
       {/* Other sections will be added here as React components */}
     </>
   );

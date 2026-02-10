@@ -3,11 +3,8 @@ import Heroimg1 from "../../assets/img/hero/hero_bg_1_1.png";
 import Heroimg2 from "../../assets/img/hero/hero_bg_1_2.png";
 
 // featured cards data
-// import feature1 from "../../assets/img/bg/feature-card_bg1.png";
 import feature2 from "../../assets/img/icon/feature-icon1-1.svg";
-// import feature3 from "../../assets/img/bg/feature-card_bg1.png";
 import feature4 from "../../assets/img/icon/feature-icon1-2.svg";
-// import feature5 from "../../assets/img/bg/feature-card_bg1.png";
 import feature6 from "../../assets/img/icon/feature-icon1-3.svg";
 
 export const heroSlides = [
