@@ -10,37 +10,38 @@ import chooseimg1 from "../../assets/img/normal/wcu_1-2.png";
 import chooseimg2 from "../../assets/img/normal/wcu_1-1.png";
 import chooseimg3 from "../../assets/img/icon/wcu-icon_1-1.svg";
 
-
 const ServiceCard = ({ icon, title, text }) => {
   return (
-    <div className="service-card">
-      <div className="service-card_icon">
-        <img src={icon} alt={title} />
-      </div>
-      <div className="service-card_content">
-        <h4 className="service-card_title h5">
-          <Link to="/services">{title}</Link>
-        </h4>
-        <p className="service-card_text">{text}</p>
-        <Link to="/services" className="link-btn">
-          Read More <FaArrowRight />
-        </Link>
+    <div className="">
+      <div className="service-card ">
+        <div className="service-card_icon">
+          <img src={icon} alt={title} />
+        </div>
+        <div className="service-card_content">
+          <h4 className="service-card_title h5">
+            <Link to="/services">{title}</Link>
+          </h4>
+          <p className="service-card_text">{text}</p>
+          <Link to="/services" className="link-btn">
+            Read More <FaArrowRight />
+          </Link>
+        </div>
       </div>
     </div>
   );
 };
 
 const AccordionItem = ({ question, answer, isOpen, onClick }) => (
-  <div className={`accordion-card ${isOpen ? 'active' : ''}`}>
+  <div className={`accordion-card ${isOpen ? "active" : ""}`}>
     <div className="accordion-header">
-      <button 
-        className={`accordion-button ${!isOpen ? 'collapsed' : ''}`}
+      <button
+        className={`accordion-button ${!isOpen ? "collapsed" : ""}`}
         onClick={onClick}
       >
         {question}
       </button>
     </div>
-    <div className={`accordion-collapse ${isOpen ? 'show' : ''}`}>
+    <div className={`accordion-collapse ${isOpen ? "show" : ""}`}>
       <div className="accordion-body">
         <p className="faq-text">{answer}</p>
       </div>
@@ -103,11 +104,7 @@ const ServiceSection = () => {
             {/* Image Column */}
             <div className="col-lg-6">
               <div className="wcu-thumb">
-                <img
-                  className="img-1"
-                  src={chooseimg1}
-                  alt="Why choose us"
-                />
+                <img className="img-1" src={chooseimg1} alt="Why choose us" />
                 <div className="img-2 jump">
                   <img src={chooseimg2} alt="img" />
                 </div>
@@ -157,7 +154,6 @@ const ServiceSection = () => {
             </div>
           </div>
         </div>
-        
       </div>
       <div className="sec-shape-bottom">
         <img src={serviceImg2} alt="shape" />

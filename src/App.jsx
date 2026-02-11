@@ -14,6 +14,7 @@ import Hero from "./components/home/HeroSection.jsx";
 import FeatureSection from "./components/home/FeatureSection.jsx";
 import AboutSection from "./components/home/AboutSection.jsx";
 import ServiceSection from "./components/home/ServiceSection.jsx";
+import ServiceSec from "./components/home/ServiceSec.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <FeatureSection />
       <AboutSection />
       <ServiceSection />
+      <ServiceSec />
       {/* Other sections will be added here as React components */}
     </>
   );
