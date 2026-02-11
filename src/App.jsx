@@ -16,6 +16,7 @@ import AboutSection from "./components/home/AboutSection.jsx";
 import ServiceSection from "./components/home/ServiceSection.jsx";
 import ServiceSec from "./components/home/ServiceSec.jsx";
 import CounterSection from "./components/home/CounterSection.jsx";
+import TeamSection from "./components/home/TeamSection.jsx";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <ServiceSection />
       <ServiceSec />
       <CounterSection />
+      <TeamSection />
       {/* Other sections will be added here as React components */}
     </>
   );

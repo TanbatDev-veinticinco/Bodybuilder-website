@@ -21,6 +21,12 @@ import counter2 from "../../assets/img/icon/counter-icon_1-2.svg";
 import counter3 from "../../assets/img/icon/counter-icon_1-3.svg";
 import counter4 from "../../assets/img/icon/counter-icon_1-4.svg";
 
+// team members img
+import team1 from "../../assets/img/team/team-1.png";
+import team2 from "../../assets/img/team/team-2.png";
+import team3 from "../../assets/img/team/team-3.png";
+import team4 from "../../assets/img/team/team-4.png";
+
 
 export const heroSlides = [
   {
@@ -154,10 +160,10 @@ export const counters = [
 
 // Team Members Data
 export const team = [
-  { id: 1, name: 'George Thomas', role: 'CEO/Founder', image: '/assets/img/team/team-1.png' },
-  { id: 2, name: 'Mike Johnson', role: 'Head Trainer', image: '/assets/img/team/team-2.png' },
-  { id: 3, name: 'Amelia Harper', role: 'Nutrition Expert', image: '/assets/img/team/team-3.png' },
-  { id: 4, name: 'Oliver Samuel', role: 'Fitness Coach', image: '/assets/img/team/team-4.png' }
+  { id: 1, name: 'George Thomas', role: 'CEO/Founder', image: team1 },
+  { id: 2, name: 'Mike Johnson', role: 'Head Trainer', image: team2 },
+  { id: 3, name: 'Amelia Harper', role: 'Nutrition Expert', image: team3 },
+  { id: 4, name: 'Oliver Samuel', role: 'Fitness Coach', image: team4 }
 ];
 
 // Testimonials Data
