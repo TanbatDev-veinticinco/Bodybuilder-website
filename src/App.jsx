@@ -19,6 +19,7 @@ import CounterSection from "./components/home/CounterSection.jsx";
 import TeamSection from "./components/home/TeamSection.jsx";
 import TestimonialSection from "./components/home/TestimonialSection.jsx";
 import PricingSection from "./components/home/PricingSection.jsx";
+import GoalSection from "./components/home/GoalSection.jsx";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <TeamSection />
       <TestimonialSection />
       <PricingSection />
+      <GoalSection />
       {/* Other sections will be added here as React components */}
     </>
   );
