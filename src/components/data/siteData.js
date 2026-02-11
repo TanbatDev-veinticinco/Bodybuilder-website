@@ -15,6 +15,13 @@ import service3 from "../../assets/img/icon/service-icon_1-3.svg";
 import service4 from "../../assets/img/icon/service-icon_1-4.svg";
 
 
+// counter card img
+import counter1 from "../../assets/img/icon/counter-icon_1-1.svg";
+import counter2 from "../../assets/img/icon/counter-icon_1-2.svg";
+import counter3 from "../../assets/img/icon/counter-icon_1-3.svg";
+import counter4 from "../../assets/img/icon/counter-icon_1-4.svg";
+
+
 export const heroSlides = [
   {
     id: 1,
@@ -139,10 +146,10 @@ export const faqs = [
 
 // Counter Stats Data
 export const counters = [
-  { icon: '/assets/img/icon/counter-icon_1-1.svg', end: 4.8, suffix: 'K', label: 'JOBS COMPLETED', decimals: 1 },
-  { icon: '/assets/img/icon/counter-icon_1-2.svg', end: 325, suffix: '', label: 'MEDIA ACTIVITIES', decimals: 0 },
-  { icon: '/assets/img/icon/counter-icon_1-3.svg', end: 598, suffix: '', label: 'SKILLED EXPERTS', decimals: 0 },
-  { icon: '/assets/img/icon/counter-icon_1-4.svg', end: 36, suffix: 'K', label: 'HAPPY CLIENTS', decimals: 0 }
+  { icon: counter1, end: 4.8, suffix: 'K', label: 'JOBS COMPLETED', decimals: 1 },
+  { icon: counter2, end: 325, suffix: '', label: 'MEDIA ACTIVITIES', decimals: 0 },
+  { icon: counter3, end: 598, suffix: '', label: 'SKILLED EXPERTS', decimals: 0 },
+  { icon: counter4, end: 36, suffix: 'K', label: 'HAPPY CLIENTS', decimals: 0 }
 ];
 
 // Team Members Data
