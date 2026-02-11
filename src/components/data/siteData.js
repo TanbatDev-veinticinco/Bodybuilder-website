@@ -7,6 +7,14 @@ import feature2 from "../../assets/img/icon/feature-icon1-1.svg";
 import feature4 from "../../assets/img/icon/feature-icon1-2.svg";
 import feature6 from "../../assets/img/icon/feature-icon1-3.svg";
 
+
+// service cards data
+import service1 from "../../assets/img/icon/service-icon_1-1.svg";
+import service2 from "../../assets/img/icon/service-icon_1-2.svg";
+import service3 from "../../assets/img/icon/service-icon_1-3.svg";
+import service4 from "../../assets/img/icon/service-icon_1-4.svg";
+
+
 export const heroSlides = [
   {
     id: 1,
@@ -85,25 +93,25 @@ export const aboutTabs = [
 export const services = [
   {
     id: 1,
-    icon: '/assets/img/icon/service-icon_1-1.svg',
+    icon: service1,
     title: 'Bodybuilding Coaching',
     text: 'Programs focused on muscle growth, symmetry, definition, and aesthetic development.'
   },
   {
     id: 2,
-    icon: '/assets/img/icon/service-icon_1-2.svg',
+    icon: service2,
     title: 'Personal Training',
     text: '1-on-1 gym or home sessions with hands-on coaching and form correction.'
   },
   {
     id: 3,
-    icon: '/assets/img/icon/service-icon_1-3.svg',
+    icon: service3,
     title: 'Online Coaching',
     text: 'Remote coaching with personalized workouts, nutrition guidance, and ongoing support train from anywhere.'
   },
   {
     id: 4,
-    icon: '/assets/img/icon/service-icon_1-4.svg',
+    icon: service4,
     title: 'Strength Training',
     text: 'Customized strength programs designed around your fitness level and performance goals.'
   }
